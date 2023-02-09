@@ -456,19 +456,19 @@
   background-color: inherit;
 }
 
-.footer__column_content_hours {
+.footer__column_hours {
   color: #ffffff;
   margin-left: auto;
 }
 
-.footer__column_content_social {
+.footer__column_social {
   color: #ffffff;
   margin-left: 100px;
 }
 
 .footer__logo {
-  max-width: 116px;
-  max-height: 21px;
+  width: 116px;
+  height: 21px;
 }
 
 .footer__list {
@@ -486,7 +486,7 @@
   margin-bottom: 0;
 }
 
-.footer__column-heading {
+.footer__heading {
   margin: 0 0 20px;
 }
 
@@ -503,8 +503,8 @@
 }
 
 .footer__social-icon {
-  max-width: 16px;
-  max-height: 16px;
+  width: 16px;
+  height: 16px;
   margin-right: 10px;
 }
 
