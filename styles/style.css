@@ -57,7 +57,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin-top: 150px 0 0;
+  margin-top: 150px;
 }
 
 .header__description {
@@ -352,7 +352,6 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  /* flex-direction: row; */
   flex-basis: 220px;
   gap: 40px;
 }
@@ -367,7 +366,6 @@
   flex-basis: 220px;
   gap: 40px;
   flex-wrap: wrap;
-  /* align-items: center; */
   align-items: flex-start;
 }
 
@@ -402,11 +400,9 @@
   position: relative;
   box-sizing: border-box;
   display: flex;
-  /* gap: 120px; */
 }
 
 .about__title {
-  /* display: flex; */
   margin: 0;
   font-size: 20px;
   line-height: 30px;
@@ -425,8 +421,6 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  /* gap: 32px; */
-  /* z-index: 1; */
 }
 
 .about__paragraph {
@@ -455,41 +449,26 @@
   background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 80px;
-  font-size: 16px;
-  line-height: 20px;
-  min-height: 224px;
-  /* display: contents; */
-  height: 344px;
-  /* margin-top: auto; */
 }
 
 .footer__columns {
   display: flex;
-  flex-direction: row;
   background-color: inherit;
-  padding-bottom: 60px;
-  padding-left: 80px;
 }
 
 .footer__column_content_hours {
   color: #ffffff;
   margin-left: auto;
-  padding-bottom: 20px;
-  margin-bottom: 100px;
-  margin-right: 100px;
 }
 
 .footer__column_content_social {
-  margin-right: -10px;
   color: #ffffff;
-  padding-bottom: 20px;
+  margin-left: 100px;
 }
 
 .footer__logo {
-  /* margin-left: 0; */
   max-width: 116px;
   max-height: 21px;
-  margin-left: -100px;
 }
 
 .footer__list {
@@ -504,13 +483,11 @@
 }
 
 .footer__list-item:last-of-type {
-  margin-left: 0;
   margin-bottom: 0;
 }
 
 .footer__column-heading {
-  margin-top: 0;
-  bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__column-link {
@@ -518,6 +495,8 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .footer__column-link:hover {
   color: #c1c1c1;
@@ -526,16 +505,10 @@
 .footer__social-icon {
   max-width: 16px;
   max-height: 16px;
-  margin-left: 22px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
   color: #fff;
-  position: relative;
-  background-color: inherit;
-  padding: 0;
-  margin-top: -60px;
-  margin-bottom: 108px;
-  margin-left: -20px;
-  width: 200px;
+  margin: 108px 0 0;
 }
