@@ -456,12 +456,12 @@
   background-color: inherit;
 }
 
-.footer__column_hours {
+.footer__column_content_hours {
   color: #ffffff;
   margin-left: auto;
 }
 
-.footer__column_social {
+.footer__column_content_social {
   color: #ffffff;
   margin-left: 100px;
 }
@@ -486,7 +486,7 @@
   margin-bottom: 0;
 }
 
-.footer__heading {
+.footer__column-heading {
   margin: 0 0 20px;
 }
 
