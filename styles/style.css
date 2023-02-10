@@ -409,9 +409,13 @@
   display: flex;
   margin: 0;
   align-items: center;
-  margin-bottom: 0;
+  margin-bottom: 32px;
   z-index: 2;
   position: relative;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 .about__circle {
@@ -430,7 +434,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 60px 80px 80px;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
